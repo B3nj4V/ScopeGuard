@@ -1,0 +1,43 @@
+/* === Perfex-like (Bootstrap 3 vibes) === */
+html,body{height:100%}body{background:#f0f3f4;color:#333;font:14px/1.5 "Helvetica Neue",Arial,sans-serif;margin:0}
+a{color:#337ab7;text-decoration:none}a:hover{color:#23527c;text-decoration:underline}
+.navbar{background:#2d3e50;color:#fff;border-bottom:1px solid #1c2835}
+.navbar .wrap{max-width:1150px;margin:0 auto;padding:12px 16px;display:flex;align-items:center;justify-content:space-between}
+.brand{display:flex;gap:10px;align-items:center;font-weight:700}
+.logo{width:26px;height:26px;border-radius:4px;background:linear-gradient(135deg,#5bc0de,#428bca)}
+.container{max-width:1150px;margin:24px auto;padding:0 16px}
+.panel_s{background:#fff;border:1px solid #e5e5e5;border-radius:4px;box-shadow:0 2px 2px rgba(0,0,0,.03)}
+.panel-heading{padding:12px 15px;border-bottom:1px solid #e5e5e5;background:#fafafa;font-weight:600}
+.panel-body{padding:15px}
+.table{width:100%;border-collapse:collapse;background:#fff}
+.table th,.table td{border-top:1px solid #e5e5e5;padding:10px 12px;vertical-align:middle}
+.table thead th{background:#fafafa;border-bottom:2px solid #ddd}
+.table tr:hover td{background:#fcfcfc}
+.btn{display:inline-block;padding:6px 12px;border:1px solid transparent;border-radius:4px;cursor:pointer;text-decoration:none}
+.btn-default{color:#333;background:#fff;border-color:#ccc}
+.btn-primary{color:#fff;background:#337ab7;border-color:#2e6da4}
+.btn-success{color:#fff;background:#5cb85c;border-color:#4cae4c}
+.btn-info{color:#fff;background:#5bc0de;border-color:#46b8da}
+.btn-danger{color:#fff;background:#d9534f;border-color:#d43f3a}
+.btn-link{background:transparent;border:0;color:#337ab7}
+.btn + .btn{margin-left:6px}
+.badge{display:inline-block;padding:4px 8px;border-radius:12px;font-size:12px;color:#fff}
+.badge.draft{background:#95a5a6}
+.badge.sent{background:#5bc0de}
+.badge.approved{background:#5cb85c}
+.badge.rejected{background:#d9534f}
+.form-control{display:block;width:100%;padding:8px 10px;border:1px solid #ccc;border-radius:4px}
+.form-row{display:flex;gap:12px}
+.form-row .col{flex:1}
+.help{font-size:12px;color:#777;margin-top:6px}
+.label{display:block;margin-bottom:6px;color:#555}
+.small{font-size:12px;color:#777}
+.alert{padding:10px 12px;border:1px solid #ddd;border-radius:4px;background:#f7f7f7}
+.toolbar{display:flex;gap:8px;flex-wrap:wrap}
+.copy{display:flex;gap:6px}
+.copy input{flex:1}
+.footer-space{height:24px}
+
+:root{
+    --border: #e5e5e5; /* color de borde por defecto */
+}
